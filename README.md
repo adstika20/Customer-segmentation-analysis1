@@ -44,9 +44,33 @@ Segmentasi pelanggan didasarkan pada beberapa fitur utama, yaitu:
 
 Dengan fitur-fitur ini, model dapat mengidentifikasi kelompok pelanggan berdasarkan perilaku mereka, sehingga membantu pengambilan keputusan strategis seperti penawaran khusus, retensi pelanggan, dan pemasaran yang lebih terarah.
 
-### 📊 Visualisasi Distribusi Pelanggan per Cluster
+## Overview
+Visualisasi berikut ini menampilkan hasil segmentasi pelanggan menggunakan algoritma **K-Means Clustering**, yang membagi pelanggan ke dalam empat cluster berdasarkan pola perilaku dan karakteristik mereka. Tujuannya adalah untuk memahami distribusi pelanggan agar strategi pemasaran dapat disesuaikan secara tepat dan efektif.
 
-Hasil visualisasi menunjukkan distribusi pelanggan yang cukup beragam di setiap segmen. Cluster 2 mendominasi dengan jumlah pelanggan terbanyak (~240), disusul oleh Cluster 0 (~220) dan Cluster 1 (~200), sementara Cluster 3 menjadi yang paling kecil (~125). Temuan ini mengindikasikan bahwa segmen pelanggan tidak tersebar merata—dan justru membuka ruang strategi berbeda untuk tiap kelompok. Cluster 0 yang berisi pelanggan loyal sangat potensial untuk program loyalitas dan eksklusivitas. Cluster 1 cocok disasar dengan kampanye promosi karena berisi pelanggan sensitif terhadap diskon. Namun, Cluster 2—yang didefinisikan sebagai pelanggan pasif—perlu ditinjau ulang karena jumlahnya yang besar menunjukkan ada kemungkinan pelanggan baru atau inaktif yang masih tercatat. Sementara itu, Cluster 3 belum memiliki deskripsi khusus dan berpeluang mengandung segmen eksklusif atau rentan churn. Visualisasi ini memberikan pijakan awal untuk strategi pemasaran yang lebih tajam dan berbasis data.
+![Customer Segmentation Clustering](https://github.com/adstika20/Customer-segmentation-analysis1/blob/main/K%20Means%20Clustering.png)
+
+---
+#### 1. **Cluster 2 – The Largest Segment (~240 customers)**
+Cluster ini merupakan kelompok pelanggan paling besar yang dapat diidentifikasi sebagai pelanggan **pasif**. Mereka cenderung kurang aktif atau mungkin pelanggan baru yang belum menunjukkan loyalitas penuh. Jumlah besar ini membuka peluang evaluasi ulang untuk meningkatkan engagement, atau mungkin melakukan re-activation campaign agar mereka kembali aktif bertransaksi.
+
+#### 2. **Cluster 0 – Loyal Customers (~220 customers)**
+Pelanggan di cluster ini menunjukkan loyalitas yang kuat dan potensi tinggi untuk program-program eksklusif. Mereka adalah aset berharga yang dapat didorong untuk peningkatan lifetime value melalui program reward, membership eksklusif, dan penawaran khusus.
+
+#### 3. **Cluster 1 – Discount-Sensitive Customers (~200 customers)**
+Segmen ini terdiri dari pelanggan yang sangat responsif terhadap diskon dan promosi. Strategi pemasaran yang cocok adalah kampanye promosi bertarget, penawaran khusus dengan potongan harga, serta flash sales yang dapat meningkatkan frekuensi pembelian mereka.
+
+#### 4. **Cluster 3 – Niche or At-Risk Customers (~125 customers)**
+Cluster terkecil ini belum memiliki deskripsi yang jelas, tetapi bisa jadi mengandung pelanggan eksklusif dengan karakter unik, atau pelanggan yang berpotensi **churn** (berhenti bertransaksi). Pendekatan yang tepat adalah melakukan analisa lebih dalam untuk mengidentifikasi karakteristik dan membuat strategi retensi atau personalisasi layanan.
+
+---
+
+#### Strategic Implications
+
+- **Tidak Semua Pelanggan Sama:** Distribusi yang tidak merata menuntut strategi yang **diferensiasi** sesuai karakteristik tiap cluster.
+- **Efisiensi Sumber Daya Pemasaran:** Dengan memahami segmentasi ini, budget pemasaran dapat dialokasikan lebih tepat sasaran.
+- **Peluang Pengembangan Produk dan Layanan:** Setiap cluster memberikan insight untuk pengembangan fitur atau produk yang lebih sesuai dengan kebutuhan masing-masing segmen.
+
+---
 
 
 ## Cara Instalasi / Requirements
